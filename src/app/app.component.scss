@@ -1,0 +1,11 @@
+@import "./Shared/colours.scss";
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+  background-color: $background;
+}

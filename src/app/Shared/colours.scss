@@ -1,0 +1,27 @@
+$light_grey: #d9d9d9;
+$background: #f6f6f6;
+$secondary-color: #2ecc71;
+$background-color: #ecf0f1;
+$text-color: #2c3e50;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.outerContainer {
+  display: flex;
+  justify-content: center;
+  padding: 0 16px 0 16px;
+
+  .innerContainer {
+    max-width: 1000px;
+  }
+}
+
+.bottomShadow {
+  -webkit-box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.2);
+}
